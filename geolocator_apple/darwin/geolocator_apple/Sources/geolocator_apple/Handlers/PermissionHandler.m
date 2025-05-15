@@ -73,9 +73,9 @@
     [locationManager requestWhenInUseAuthorization];
   }
 #if !BYPASS_PERMISSION_LOCATION_ALWAYS
-  else if ([self containsLocationAlwaysDescription]) {
-    [locationManager requestAlwaysAuthorization];
-  }
+  // else if ([self containsLocationAlwaysDescription]) {
+  //   [locationManager requestAlwaysAuthorization];
+  // }
 #endif
 #endif
   else {
